@@ -1,0 +1,11 @@
+language: c
+
+sudo: false # only for faster builds
+
+os:
+  - linux
+
+compiler:
+  - gcc
+  
+script: make
